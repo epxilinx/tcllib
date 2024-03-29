@@ -1271,7 +1271,7 @@ proc ::yaml::_makeChildType {type tag} {
     namespace eval $full_path_to_type [string map [list @TYPE@ $type @TAG@ $tag] {
 	variable settings
 	set settings {
-	    superClass string
+	    superclass string
 	    publicMethods {}
 	    isContainer no
 	    tag @TAG@
